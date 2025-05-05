@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-image: url("https://images.pexels.com/photos/458983/pexels-photo-458983.jpeg?cs=srgb&dl=pexels-pixabay-458983.jpg&fm=jpg");
+    background-size: cover;
+    background-position: center;
+    height: 150%;
+    width: 100%;
+    box-shadow: 2px 2px 15px yellow;
+}
+header marquee{
+    font-size: 70px;
+    color: white;
+    padding: 18px;
+    text-shadow: 7px 7px 15px rgb(212, 14, 14) ;
+    margin-bottom: 10px;
+}
+.menu{
+    height: 50px;
+    background:radial-gradient(circle, teal,pink, rgb(36, 153, 226));
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 15px rgb(56, 140, 204);
+    position: sticky;
+    top: 0px;
+    left: 0px;
+
+}
+.menu a{
+    text-decoration: none;
+    font-size: 20px;
+    flex:auto;
+    padding: 10px;
+    font-size: 20px;
+    
+
+}
+.menu a:hover{
+    background-color: brown;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.image{
+    height: 300px;
+    width: 100%;
+    background-image: url("https://wallpapers.com/images/featured/nature-flower-zg45w6j8sslxrmaj.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 10px;
+
+}
+.image-text{
+    background-color: hsla(192, 60%, 80%, 0.5);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: rgb(8, 92, 62);
+}
+.image-text h1{
+    font-size: 60px;
+    margin: 10px;
+    padding: 20px;
+
+}
+.image-text p{
+    line-height: 30px;
+    font-size: 20px;
+    padding: 10px;
+}
+.parent{
+    background-color: rgb(194, 232, 194);
+}
+.parent h1{
+    color: hsl(21, 85%, 46%);
+    font-size: 40px;
+    padding: 20px;
+
+
+}
+.parent p{
+    color: darkblue;
+    font-size: 20px;
+    line-height: 35px;
+    text-indent: 30px;
+    margin:20px;
+
+}

@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: pink;
+}
+.link{
+    font-size: 25px;
+    margin: 20px;
+    background-color: rgb(34, 94, 205);
+    width: 150px;
+    border-radius: 15px;
+    padding:15px;
+}
+.link a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+.link span{
+    color:white;
+}
+.container{
+    height: 500px;
+    width: 400px;
+    box-shadow: 5px 5px 15px red;
+    margin: 20px auto;
+    background: linear-gradient(50deg, pink, teal, lightblue);
+    border-radius: 30px;
+
+}
+.container h1{
+    text-align: center;
+    font-size: 40px;
+}
+.container hr{
+    margin-bottom: 10px;
+}
+.container .boxes input{
+    height: 50px;
+    width: 360px;
+    margin: 10px 20px;
+    border-left: 10px solid orange;
+    border-top: 5px solid rgb(213, 173, 99);
+    border-radius: 0px 25px 0px 25px;
+}
+.container .boxes textarea{
+    height: 100px;
+    width: 360px;
+    margin: 10px 20px;
+    border-left: 10px solid orange;
+    border-top: 5px solid rgb(213, 173, 99);
+    border-radius: 0px 25px 0px 25px;
+}
+.container .boxes input::placeholder{
+    font-size: 18px;
+    color: darkgrey;
+    text-align: center;
+}
+.container .button input{
+    height: 50px;
+    width: 360px;
+    margin: 10px 20px;
+    background: linear-gradient(110deg, rgb(216, 163, 29), rgb(29, 244, 244), rgb(87, 218, 100));
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+.container h1:hover{
+    letter-spacing: 10px;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px gold;
+    color: white;
+}
+.container .boxes input:hover{
+   box-shadow: 5px 5px 10px gold;
+    
+}
+.container .boxes textarea:hover{
+    box-shadow: 5px 5px 10px gold;
+}
+.container .button input:hover{
+    height: 50px;
+    width: 300px;
+    margin: 10px 45px;
+    background: linear-gradient(30deg, rgb(179, 66, 21), rgb(4, 145, 56), rgb(115, 115, 225));
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+}
+
